@@ -159,12 +159,13 @@ const addVideoStream = (videoEl, stream, name) => {
     videoEl.addEventListener("loadedmetadata", () => {
         videoEl.play();
     });
-    const h1 = document.createElement("h1");
-    const h1name = document.createTextNode(name);
-    h1.appendChild(h1name);
+    const h3 = document.createElement("h3");
+    const h3name = document.createTextNode(name);
+    h3.setAttribute("class", "video-grid-header");
+    h3.appendChild(h3name);
     const videoGrid = document.createElement("div");
     videoGrid.classList.add("video-grid");
-    videoGrid.appendChild(h1);
+    videoGrid.appendChild(h3);
     videoGrids.appendChild(videoGrid);
     videoGrid.append(videoEl);
     RemoveUnusedDivs();

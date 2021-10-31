@@ -34,10 +34,9 @@ a:active {
     margin: 20px;
 }
 
-h1 {
-    position: absolute;
-    bottom: 0;
-    left: 40%;
+.video-grid-header{
+  width: 100%;
+  text-align: center;
 }
 
 video {
@@ -101,9 +100,9 @@ video {
     padding: 40px;
 }
 
-.leave_red {
-    color: white;
-    background-color: red;
+.leave_button {
+    color: white !important;
+    background-color: #950815eb;
     border-radius: 5%;
 }
 
