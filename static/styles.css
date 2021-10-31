@@ -29,8 +29,9 @@ a:active {
     width: 100%;
     align-items: center;
     flex-wrap: wrap;
-    overflow-y: auto;
-    background-color: yellow;
+    background-color: grey;
+    border-radius: 20px;
+    margin: 20px;
 }
 
 h1 {
